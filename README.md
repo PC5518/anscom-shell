@@ -7,3 +7,11 @@ my logic notes including issues faced:
 
 the issue is ok with the non permissible files but when it comes to the /root files it create a permision denied error which can block the scan. solution: use std::filesystem::directory_options::skip_permision_denied.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ea1125a6-bbe3-4f00-9373-ae2c5833aa95" />
+
+
+# security skips: wherever the the g++ compiler sees that the directory/folder exists while the itterator goes on it will skip the one which are not accessible. 
+eg: linux root folder.
+<img width="1903" height="1043" alt="image" src="https://github.com/user-attachments/assets/7e9f8643-b735-4f37-90ec-42500aedbfc8" />
+
+# the compiler has a specific type std::error_code.
+<img width="1894" height="1036" alt="image" src="https://github.com/user-attachments/assets/7c454117-fc88-4a7c-98e4-e502a316e78b" />
