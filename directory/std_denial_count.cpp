@@ -1,12 +1,28 @@
 #include <iostream>
 #include <filesystem>
+#include <system_error>
 namespace fs= std::filesystem;
 
 int main() {
-    int denial_count =0;
-    std::error_code env ;
-    
-    // for (const auto& i: fs::recursive_directory_iterator(".",  fs::directory_options::skip_permission_denied)) {
-    //     if (fs::is_directory())
-    // }
+    std::error_code error_data;
+    int files=0;
+    int folder=0;
+    int denied_count= 0;
+    for (const auto& i: fs::recursive_directory_iterator("/root", fs::directory_options::skip_permission_denied)) {
+        std::cout << i<<std::endl;
+        bool isDir= fs::is_directory(i, error_data);
+        if (error_data) {
+            denied_count++;
+            error_data.clear();
+        } else if (isDir) { 
+            folder++;
+        } else {
+            files++;
+        }
+        std::cout <<"files: " << files<<std::endl;
+        std::cout <<"folder: " <<folder <<std::endl;
+        std::cout <<"error: " << denied_count<<std::endl;
+
+        // if (ec) evaluates to true: This means an error did happen (the integer value is non-zero).if (!ec) evaluates to true: This means success (the integer value is 0).
+    }  //  Yes, std::error_code evaluates to true when it stores an error value, meaning ec.value() != 0
 }

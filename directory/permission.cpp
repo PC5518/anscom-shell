@@ -16,7 +16,6 @@ int main() {
     std::cout <<"files: " <<files<<std::endl;
     std::cout << "folders: " <<folders <<std::endl;
     std::cout <<"output:  Abort" <<std::endl;
-    // this fs::directory optuions is a gatway to take steps at a particular instance and this skip permisision denied instead of throwing, the iterator just treats /root as if it were empty — it silently moves on without ever giving you any of its contents.
-    
+    // this fs::directory optuions is a gatway to take steps at a particular instance and this skip permisision denied instead of throwing, the iterator just treats /root as if it were empty — it silently moves on without ever giving you any of its contents
 
 }
