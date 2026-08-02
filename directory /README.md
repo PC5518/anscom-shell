@@ -4,5 +4,5 @@
 
 
 # countering the permission issue in case of protected directory like root.
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/443aaa92-e7d9-49fd-9bab-eccf800c91fd" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d8f3635c-f2a0-42e5-adea-4e76e5800e4f" />
 
