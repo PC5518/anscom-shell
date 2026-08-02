@@ -25,7 +25,7 @@ int main() {
     int folders=0;
     
     for (const auto& i : fs::recursive_directory_iterator("."))  {
-        if (fs::is_regular_file(i)) {
+        if (fs::exists(i)) {
             files ++;
         } else {
             folders++;
