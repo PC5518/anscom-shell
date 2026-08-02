@@ -9,6 +9,7 @@ int main() {
     int folder=0;
     int denied_count= 0;
     for (const auto& i: fs::recursive_directory_iterator("/root", fs::directory_options::skip_permission_denied)) {
+        // you see the failure has been absorbed one step earlier that's why the compiler is not even recievign the error that is to be forwarded to the std::error_code error data
         std::cout << i<<std::endl;
         bool isDir= fs::is_directory(i, error_data); // yes, this one line is genuinely doing two things at once — that's a correct and important observation.
         if (error_data) {
