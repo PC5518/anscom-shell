@@ -10,7 +10,7 @@ int main() {
     int denied_count= 0;
     for (const auto& i: fs::recursive_directory_iterator("/root", fs::directory_options::skip_permission_denied)) {
         std::cout << i<<std::endl;
-        bool isDir= fs::is_directory(i, error_data);
+        bool isDir= fs::is_directory(i, error_data); // yes, this one line is genuinely doing two things at once — that's a correct and important observation.
         if (error_data) {
             denied_count++;
             error_data.clear();
