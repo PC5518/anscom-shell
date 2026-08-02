@@ -20,5 +20,5 @@ int main() {
     std::cout <<"the total number of all the files and nested folders in this directoty are are: " <<total<< std::endl;
     // note: this std::filesystem::recursive_directory_iterator 
     // the issue with the recursive directory iterator is that: recursive_directory_iterator doesn't just count files — it treats every entry (both files and folders) as one item in the iteration.
-    
+    // solution: in the next file:
 }
