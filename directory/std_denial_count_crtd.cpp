@@ -11,7 +11,7 @@ int main() {
             
     }
     }
-
+    // we are required to go with other case of this file
         // if (ec) evaluates to true: This means an error did happen (the integer value is non-zero).if (!ec) evaluates to true: This means success (the integer value is 0).
         //  Yes, std::error_code evaluates to true when it stores an error value, meaning ec.value() != 0
     std::cout <<"files: " << files<<std::endl;
