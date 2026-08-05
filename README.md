@@ -15,3 +15,4 @@ eg: linux root folder.
 
 # the compiler has a specific type std::error_code.
 <img width="1894" height="1036" alt="image" src="https://github.com/user-attachments/assets/7c454117-fc88-4a7c-98e4-e502a316e78b" />
+is the vs code commit visible 
