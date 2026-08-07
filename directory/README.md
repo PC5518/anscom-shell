@@ -16,3 +16,7 @@ this is the exact error to be handled.
 ##  this is the exact error we are seeing. this is the exact error to be catched: terminate called after throwing an instance of 'std::filesystem::__cxx11::filesystem_error'
 
 <img width="842" height="571" alt="image" src="https://github.com/user-attachments/assets/c5bbcaba-f090-4f4f-9684-602cd6ba8d83" />
+
+
+## POV: sudo command can not access it. 
+<img width="990" height="608" alt="image" src="https://github.com/user-attachments/assets/9d39bb8a-edc6-4a2d-9fdb-97b2455425b6" />
