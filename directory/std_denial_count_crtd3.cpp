@@ -21,10 +21,11 @@ int main() {
         } else {
             files++;
             std::cout << " ----->files detected"<<std::endl;
-        }
+        } // use sudo 
     }
     std::cout << "directory details: " <<std::endl;
     std::cout <<"total denied count: " << denied_count <<std::endl;
     std::cout <<"total files: " << files  <<std::endl;
     std::cout << "total folders: " << folders<<std::endl;
+    std::cout << "total files, folders and denied files combined: " << folders+files + denied_count<<std::endl;
 }//std::filesystem::directory_options::skip_permission_denied does not skip your loop's code. It tells the directory iterator to silently ignore access-denied folders and move straight to the next readable file or folder without throwing an error. Your loop body runs normally for every valid item.
