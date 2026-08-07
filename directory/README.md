@@ -4,3 +4,8 @@
 
 # issue with the std::filesystem:: when it comes to the secured linux folders like /root and other. it's showing permission denied.
 <img width="1920" height="1080" alt="Screenshot From 2026-08-02 16-30-21" src="https://github.com/user-attachments/assets/4974e685-85d2-4011-8f65-b896b1a96fd8" />
+
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c5d69002-3eea-4c88-a01f-d630e15f8f7c" />
+this is the exact error to be handled. 
+
