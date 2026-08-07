@@ -25,3 +25,5 @@ this is the exact error to be handled.
 
 ## weak point about the **catch and try** approach:
 when an exception is thrown anywhere inside a try block, C++ immediately abandons everything else inside that try — including any loop it was running — and jumps straight to the matching catch. It doesn't "skip this one folder and continue the loop." It destroys the entire loop's progress on the spot. So yes: one denied folder, out of potentially thousands, kills the whole scan. That's a real, serious weakness for a file scanner meant to walk huge, messy real-world directories
+// let's the follow the approach to make the try and catch in the for loop. 
+
