@@ -14,13 +14,13 @@ int main() {
         if (error_data) {
             denied_count++; // However, a std::filesystem::recursive_directory_iterator can encounter errors or throw exceptions on things that are not folders (for example, broken symlinks, locked system files, or unreadable files).
             error_data.clear();
-            std::cout <<"denied entry: file cannot be opened" <<std::endl;
+            std::cout <<"   ---> denied entry: file cannot be opened" <<std::endl;
         } else if  (isdir) {
             folders++; 
-            std::cout<<"folder detected" <<std::endl;
+            std::cout<<"  ---->folder detected" <<std::endl;
         } else {
             files++;
-            std::cout << "files detected"<<std::endl;
+            std::cout << " ----->files detected"<<std::endl;
         }
     }
     std::cout << "directory details: " <<std::endl;
