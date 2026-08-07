@@ -22,5 +22,4 @@ is the vs code commit visible
 <img width="1886" height="1042" alt="image" src="https://github.com/user-attachments/assets/8a41439d-9bdd-4ef4-beab-dc5657fcb89b" />
 
 
-<img width="1898" height="1037" alt="image" src="https://github.com/user-attachments/assets/217b330c-cc33-4efa-9d75-e2716039a1d8" />
-<img width="1913" height="315" alt="image" src="https://github.com/user-attachments/assets/f83afd21-bcde-4988-8a1b-4874b4581f01" />
+<img width="1912" height="1041" alt="image" src="https://github.com/user-attachments/assets/49cf0f47-0e86-4981-9992-e5f0c7a20a7b" />
