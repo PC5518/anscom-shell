@@ -12,7 +12,7 @@ int main() {
             if (fs::is_directory(i)) {
                 folders++;
             } else {
-                
+               files++; 
             }
         }
     } catch (const fs::filesystem_error& e   ) {     // now here the catch funxtion takes the error. 
