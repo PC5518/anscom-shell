@@ -18,3 +18,9 @@ eg: linux root folder.
 # the compiler has a specific type std::error_code.
 <img width="1894" height="1036" alt="image" src="https://github.com/user-attachments/assets/7c454117-fc88-4a7c-98e4-e502a316e78b" />
 is the vs code commit visible 
+## idea for error handelling:  
+<img width="1886" height="1042" alt="image" src="https://github.com/user-attachments/assets/8a41439d-9bdd-4ef4-beab-dc5657fcb89b" />
+
+
+<img width="1898" height="1037" alt="image" src="https://github.com/user-attachments/assets/217b330c-cc33-4efa-9d75-e2716039a1d8" />
+<img width="1913" height="315" alt="image" src="https://github.com/user-attachments/assets/f83afd21-bcde-4988-8a1b-4874b4581f01" />
