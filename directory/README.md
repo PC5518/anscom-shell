@@ -9,3 +9,6 @@
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c5d69002-3eea-4c88-a01f-d630e15f8f7c" />
 this is the exact error to be handled. 
 
+
+## this is not even a cath error. 
+<img width="1320" height="832" alt="image" src="https://github.com/user-attachments/assets/80d6a563-a567-4d5b-8df9-faa715563aec" />
