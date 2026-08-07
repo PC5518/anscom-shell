@@ -1,1 +1,1 @@
-exists
+directory details:
