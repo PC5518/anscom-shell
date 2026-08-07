@@ -21,3 +21,7 @@ this is the exact error to be handled.
 ## we can use this to go through the for deep level scanner without hurdles. this is for linux  distro ubuntu or fedora or even mac also.
 // now the problem is that how will we deal with windows 11 or 10 ? it's mostly dependent on the GUI (Graphical User Interface).
 <img width="990" height="608" alt="image" src="https://github.com/user-attachments/assets/ae17671e-3eb8-422e-8b5a-b01ef030938e" />
+
+
+## weak point about the **catch and try** approach:
+when an exception is thrown anywhere inside a try block, C++ immediately abandons everything else inside that try — including any loop it was running — and jumps straight to the matching catch. It doesn't "skip this one folder and continue the loop." It destroys the entire loop's progress on the spot. So yes: one denied folder, out of potentially thousands, kills the whole scan. That's a real, serious weakness for a file scanner meant to walk huge, messy real-world directories
