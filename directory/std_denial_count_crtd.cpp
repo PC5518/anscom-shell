@@ -4,6 +4,9 @@
 namespace fs= std::filesystem;
 
 int main() {
+    
+}
+int main() {
     int files =0, folders =0,denied_count=0; 
     std::error_code error_data;
     try {
