@@ -18,6 +18,6 @@ this is the exact error to be handled.
 <img width="842" height="571" alt="image" src="https://github.com/user-attachments/assets/c5bbcaba-f090-4f4f-9684-602cd6ba8d83" />
 
 
-## we can use this to go through the for deep level scanner without hurdles. this is for linux distro ubuntu.
-// now the biggest problem is that how will we deal with windows 11 or 10 ? it's mostly dependent on the GUI (Graphical User Interface).
-<img width="990" height="608" alt="image" src="https://github.com/user-attachments/assets/b3f2074d-6bf2-4f11-8d60-0cb9e07c1845" />
+## we can use this to go through the for deep level scanner without hurdles. this is for linux  distro ubuntu or fedora or even mac also.
+// now the problem is that how will we deal with windows 11 or 10 ? it's mostly dependent on the GUI (Graphical User Interface).
+<img width="990" height="608" alt="image" src="https://github.com/user-attachments/assets/ae17671e-3eb8-422e-8b5a-b01ef030938e" />
