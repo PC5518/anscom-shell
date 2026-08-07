@@ -12,3 +12,7 @@ this is the exact error to be handled.
 
 ## this is not even a cath error. 
 <img width="1320" height="832" alt="image" src="https://github.com/user-attachments/assets/80d6a563-a567-4d5b-8df9-faa715563aec" />
+
+##  this is the exact error we are seeing. this is the exact error to be catched: terminate called after throwing an instance of 'std::filesystem::__cxx11::filesystem_error'
+
+<img width="842" height="571" alt="image" src="https://github.com/user-attachments/assets/c5bbcaba-f090-4f4f-9684-602cd6ba8d83" />
