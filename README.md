@@ -1,6 +1,8 @@
 # anscom-shell
 The shell version of anscom pypi extension.
 my logic notes including issues faced:
+these are based on the directory computation analysis that i performed i the previous pypi package version of anscom. 
+note: a lot of new updates and algorithm can be designed to make it even more faster.
 <img width="1879" height="1023" alt="image" src="https://github.com/user-attachments/assets/4980ed1d-6ed1-44aa-956e-bae8d553be8d" />
 <img width="1293" height="838" alt="image" src="https://github.com/user-attachments/assets/e155cbb4-5603-4047-b3c0-76663b3b7e37" />
 <img width="1914" height="1059" alt="image" src="https://github.com/user-attachments/assets/b31637db-af5d-4fe2-a3ff-ef432d8f5bf9" />
