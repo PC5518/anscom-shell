@@ -21,5 +21,5 @@ is the vs code commit visible
 ## idea for error handelling:  
 <img width="1886" height="1042" alt="image" src="https://github.com/user-attachments/assets/8a41439d-9bdd-4ef4-beab-dc5657fcb89b" />
 
-
+## final logic for the directory scan analysis.
 <img width="1912" height="1041" alt="image" src="https://github.com/user-attachments/assets/49cf0f47-0e86-4981-9992-e5f0c7a20a7b" />
