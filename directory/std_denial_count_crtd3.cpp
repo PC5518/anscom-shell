@@ -12,7 +12,7 @@ int main() {
         // why this code doesn't work:  The option silences the error: By using fs::directory_options::skip_permission_denied, you tell the iterator to completely skip permission-denied items in the background.
         if (error_data) {
             denied_count++;
-            folders++;
+            folders++;  // However, a std::filesystem::recursive_directory_iterator can encounter errors or throw exceptions on things that are not folders (for example, broken symlinks, locked system files, or unreadable files).
             error_data.clear();
         } else if  (isdir) {
             folders++;
