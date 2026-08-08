@@ -32,7 +32,7 @@ now the for if loop works well with system_error  technique but still there is a
 
 
 ## The biggst issues with the below code is with MS Windows:
-'''
+```
 
 #include <iostream>
 #include <filesystem>
@@ -77,7 +77,8 @@ int main() {
 
     return 0;
 }//std::filesystem::directory_options::skip_permission_denied does not skip your loop's code. It tells the directory iterator to silently ignore access-denied folders and move straight to the next readable file or folder without throwing an error. Your loop body runs normally for every valid item.
-'''
+```
+
 Point 1:
 
 skip_permission_denied handles only one specific category of errors — permission denied. In a filesystem, there can be many other categories of errors (like the current “Invalid argument,” reparse points, broken symlinks, disk I/O failures). No single flag can “handle everything” — each category requires its own handling. This is a genuine, permanent, real-world truth — professional scanning code (like your own anscom.c) maintains an entire layer of robust error handling for this reason, not just a single flag.
