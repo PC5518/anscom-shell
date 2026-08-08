@@ -33,6 +33,9 @@ int main() {
     std::cout <<"Suggestion: for the most accurate results on MS Windows run in the administrator mode or with sudo. you might sudo with wsl for the best results. wsl: sudo ./sampleexefile" <<std::endl;
 #elif defined(__linux__) 
     std::cout << "Suggestion: For the most accurate results on Linux machine run use with sudo.  Bash: sudo ./sampleexefile"<<std::endl;
+#elif defind(__APPLE__)
+    std::cout << "Suggestion: For the most accurate results on appple's mac machine run use with sudo.  Bash: sudo ./sampleexefile"<<std::endl;
+
 #else
     std::cout <<"run the shell with admin access for best results" <<std::endl;
 #endif 
