@@ -8,7 +8,7 @@ int main() {
     int folders =0;
     int denied_count=0;
     std::error_code error_data;
-    for (const auto& i : fs::recursive_directory_iterator("/", fs::directory_options::skip_permission_denied)) {
+    for (const auto& i : fs::recursive_directory_iterator("/root", fs::directory_options::skip_permission_denied)) {
         std::cout << i<<" " ;
         bool isdir = fs::is_directory(i,error_data);  // note  in this  fs::directory_options::skip_permission_denied) the loop body is also ecxecuted the skip permission denied only make it silent and makes the code throw no error.
         // why this code doesn't work:  The option silences the error: By using fs::directory_options::skip_permission_denied, you tell the iterator to completely skip permission-denied items in the background.
