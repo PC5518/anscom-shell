@@ -30,9 +30,9 @@ int main() {
     std::cout << "total folders: " << folders<<std::endl;
     std::cout << "total files, folders and denied files combined: " << folders+files + denied_count<<std::endl;
 #if defined(_WIN32) 
-    std::cout <<"for the most accurate results on MS Windows run in the administrator mode or with sudo. you might sudo with wsl for the best results. wsl: sudo ./sampleexefile" <<std::endl;
+    std::cout <<"Suggestion: for the most accurate results on MS Windows run in the administrator mode or with sudo. you might sudo with wsl for the best results. wsl: sudo ./sampleexefile" <<std::endl;
 #elif defined(__linux__) 
-    std::cout << "For the most accurate results on Linux machine run use with sudo.  Bash: sudo ./sampleexefile"<<std::endl;
+    std::cout << "Suggestion: For the most accurate results on Linux machine run use with sudo.  Bash: sudo ./sampleexefile"<<std::endl;
 #else
     std::cout <<"run the shell with admin access for best results" <<std::endl;
 #endif 
