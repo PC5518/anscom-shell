@@ -28,3 +28,17 @@ this is the exact error to be handled.
 when an exception is thrown anywhere inside a try block, C++ immediately abandons everything else inside that try — including any loop it was running — and jumps straight to the matching catch. It doesn't "skip this one folder and continue the loop." It destroys the entire loop's progress on the spot. So yes: one denied folder, out of potentially thousands, kills the whole scan. That's a real, serious weakness for a file scanner meant to walk huge, messy real-world directories
 // let's the follow the approach to make the try and catch in the for loop. 
 
+now the for if loop works well with system_error  technique but still there is a file junction or some other kinnd of error 
+
+
+## The biggst issues :
+Point 1:
+
+skip_permission_denied handles only one specific category of errors — permission denied. In a filesystem, there can be many other categories of errors (like the current “Invalid argument,” reparse points, broken symlinks, disk I/O failures). No single flag can “handle everything” — each category requires its own handling. This is a genuine, permanent, real-world truth — professional scanning code (like your own anscom.c) maintains an entire layer of robust error handling for this reason, not just a single flag.
+
+Point 2:
+
+“Putting a try block inside the for loop didn’t solve the problem.”
+
+Placing a try block inside the for loop only protects the loop body (the part you write yourself). But here, the issue is occurring in the loop’s internal “fetch next item” step (the increment), which a range-based for loop performs automatically and outside your control. That’s why putting a try block inside the body doesn’t even touch it — the crash is happening in the loop’s mechanism, not in your written code.
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/18efa2b0-2a1c-4aca-b0fb-ad1c69c44a61" />
